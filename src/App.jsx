@@ -1,10 +1,11 @@
 import './App.css'
-import Navbar from "./components/Navbar"
 import ItemListContainer from './components/ItemListContainer'
+import "bootstrap/dist/css/bootstrap.min.css"
+import NavbarBoostrap from './components/NavbarBoostrap'
 function App() {
   return (
     <>
-    <Navbar/>
+    <NavbarBoostrap/>
     <ItemListContainer greeting="Bienvenidos a Padeleros!!"/>
     </>
   )
