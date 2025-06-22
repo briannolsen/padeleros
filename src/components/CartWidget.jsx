@@ -1,13 +1,10 @@
-import { Badge } from "react-bootstrap";
-import { IoCart } from "react-icons/io5";
-
-const CartWidget = () =>{
+const CartWidget = () => {
     return(
         <div>
-            <IoCart fontSize={"1.5rem"}/>
-            <Badge bg="danger">8</Badge>
-
+            <span>🛒</span>
+            <span>8</span>
         </div>
     )
 }
+
 export default CartWidget
