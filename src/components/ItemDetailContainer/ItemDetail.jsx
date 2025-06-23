@@ -1,6 +1,6 @@
 import {useContext, useState}from 'react'
 import ItemCount from './ItemCount'
-import { CartContext } from '../context/CartContext'
+import { CartContext } from '../../context/CartContext'
 import { Link } from 'react-router-dom'
 import Swal from 'sweetalert2'
 

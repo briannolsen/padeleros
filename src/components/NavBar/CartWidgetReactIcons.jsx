@@ -1,7 +1,7 @@
 import { Badge } from "react-bootstrap";
 import {  IoCartSharp } from "react-icons/io5";
 import { useContext } from "react";
-import { CartContext } from "../context/CartContext";
+import { CartContext } from "../../context/CartContext";
 
 const CartWidgetReactIcons = () =>{
 const {cartQuantity}=useContext(CartContext)

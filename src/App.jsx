@@ -2,14 +2,14 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ItemListContainer from './components/itemListContainer/ItemListContainer'
-import NavbarBootstrap from './components/NavbarBoostrap';
+import NavbarBootstrap from "./components/NavBar/NavbarBoostrap";
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Error from './components/Error';
-import Cart from './components/NavBar/Cart';
+import Cart from './components/Cart/Cart';
 import { CartProvider } from './context/CartContext';
-import Checkout from './components/Checkout';
-import CheckoutUseForm from './components/CheckoutUseForm';
+import Checkout from './components/Checkout/Checkout';
+import CheckoutUseForm from './components/Checkout/CheckoutUseForm';
 
 
 function App() {

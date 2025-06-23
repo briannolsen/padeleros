@@ -1,12 +1,40 @@
-# React + Vite
+# 🏓 PadelStore - E-commerce de Paletas de Pádel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Padeleros** es una aplicación web desarrollada en **React** que es una e-commerce dedicado exclusivamente a la venta de **paletas de pádel**. El proyecto incluye funcionalidades como listado de productos, detalles individuales, carrito de compras y formulario de checkout, utilizando **Firebase** como backend.
 
-Currently, two official plugins are available:
+![alt text](image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ **React** 
+- 🔥 **Firebase** 
+- 💅 **CSS / Tailwind** 
+- 📦 **React Router DOM**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Instalación del proyecto
+
+# 🏓 PadelStore - E-commerce de Paletas de Pádel
+
+**PadelStore** es una aplicación web desarrollada en **React** que simula un e-commerce dedicado exclusivamente a la venta de **paletas de pádel**. El proyecto incluye funcionalidades como listado de productos, detalles individuales, carrito de compras y formulario de checkout, utilizando **Firebase** como backend.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- ⚛️ **React** (Vite)
+- 🔥 **Firebase** (Firestore, Authentication, Hosting)
+- 💅 **CSS / Tailwind** (opcional)
+- 📦 **React Router DOM**
+- 🛒 Context API para gestión de carrito
+
+---
+
+## 📦 Instalación del proyecto
+
+- Clone el repositorio
+- Haga el comando cd coder-flex-73690 para moverse a la carpeta del proyecto
+- Instale dependencias con el comando npm install
+- Para levantar la app en el servidor local ejecute el comando npm run dev
+
