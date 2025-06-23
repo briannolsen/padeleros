@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
 import { getProducts, products } from "../mock/AsyncService"
-import ItemList from "./ItemList"
+import ItemList from "../ItemList"
 import { useParams } from "react-router-dom"
-import LoaderComponent from "./LoaderComponent"
+import LoaderComponent from "../LoaderComponent"
 import { addDoc, collection, getDocs, query, where } from 'firebase/firestore'
-import { db } from '../service/firebase'
+import { db } from '../../service/firebase'
 
 const ItemListContainer = ({ greeting }) => {
     const [data, setData] = useState([])

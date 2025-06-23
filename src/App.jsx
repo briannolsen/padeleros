@@ -1,12 +1,12 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import ItemListContainer from './components/ItemListContainer'
-import NavbarReactBootstrap from './components/NavbarBoostrap';
-import ItemDetailContainer from './components/ItemDetailContainer';
+import ItemListContainer from './components/itemListContainer/ItemListContainer'
+import NavbarBootstrap from './components/NavbarBoostrap';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Error from './components/Error';
-import Cart from './components/Cart';
+import Cart from './components/NavBar/Cart';
 import { CartProvider } from './context/CartContext';
 import Checkout from './components/Checkout';
 import CheckoutUseForm from './components/CheckoutUseForm';
@@ -17,7 +17,7 @@ function App() {
   return (
     <BrowserRouter>
     <CartProvider>
-      <NavbarReactBootstrap/>
+      <NavbarBootstrap/>
       <Routes>
         <Route path='/' element={<ItemListContainer greeting="Bienvenidos a mi app!"/>}/>
         <Route path='/category/:categoryId' element={<ItemListContainer greeting="Estas en la categoria: "/>}/>

@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { getOneProduct, getProducts } from '../mock/AsyncService'
 import ItemDetail from './ItemDetail'
 import { Link, useParams } from 'react-router-dom'
-import LoaderComponent from './LoaderComponent'
+import LoaderComponent from '../LoaderComponent'
 import { collection, doc, getDoc } from 'firebase/firestore'
-import { db } from '../service/firebase'
+import { db } from '../../service/firebase'
 
 const ItemDetailContainer = () => {
     const [detalle, setDetalle]= useState({})
