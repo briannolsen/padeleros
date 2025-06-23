@@ -1,4 +1,4 @@
-# 🏓 PadelStore - E-commerce de Paletas de Pádel
+# 🏓 Padeleros - E-commerce de Paletas de Pádel
 
 **Padeleros** es una aplicación web desarrollada en **React** que es una e-commerce dedicado exclusivamente a la venta de **paletas de pádel**. El proyecto incluye funcionalidades como listado de productos, detalles individuales, carrito de compras y formulario de checkout, utilizando **Firebase** como backend.
 
@@ -15,9 +15,9 @@
 
 ## 📦 Instalación del proyecto
 
-# 🏓 PadelStore - E-commerce de Paletas de Pádel
+# 🏓 Padeleros - E-commerce de Paletas de Pádel
 
-**PadelStore** es una aplicación web desarrollada en **React** que simula un e-commerce dedicado exclusivamente a la venta de **paletas de pádel**. El proyecto incluye funcionalidades como listado de productos, detalles individuales, carrito de compras y formulario de checkout, utilizando **Firebase** como backend.
+**Padeleros** es una aplicación web desarrollada en **React** que simula un e-commerce dedicado exclusivamente a la venta de **paletas de pádel**. El proyecto incluye funcionalidades como listado de productos, detalles individuales, carrito de compras y formulario de checkout, utilizando **Firebase** como backend.
 
 ---
 
